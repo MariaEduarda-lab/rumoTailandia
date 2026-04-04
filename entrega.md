@@ -56,7 +56,7 @@ O Brasil movimentou **US$ 318,8 bilhões em cripto** entre julho de 2024 e junho
 
 **O que o produto faz (em 2–3 frases):**
 
-O ZAPI leva o ecossistema Solana para dentro do WhatsApp, o app que 147 milhões de brasileiros já usam todo dia. Por meio de um chat com inteligência artificial, o usuário cria carteira, faz transferências em stablecoin e acessa perfis de investimento no ecossistema Solana usando linguagem natural, sem instalar nada, sem seed phrase visível e sem pagar taxas de rede.
+O ZOP leva o ecossistema Solana para dentro do WhatsApp, o app que 147 milhões de brasileiros já usam todo dia. Por meio de um chat com inteligência artificial, o usuário cria carteira, faz transferências em stablecoin e acessa perfis de investimento no ecossistema Solana usando linguagem natural, sem instalar nada, sem seed phrase visível e sem pagar taxas de rede.
 
 **Como o usuário interage com a solução? (fluxo simplificado)**
 > _Ex: "O usuário conecta sua carteira → seleciona X → recebe Y em Z segundos."_
@@ -160,7 +160,45 @@ Fontes: Chainalysis (2025), Banco Central do Brasil (2024), Mercado Bitcoin Rese
 
 ### Slide 7 — Diferencial
 
-> _O que diferencia sua ideia das soluções existentes? Liste os concorrentes diretos e indiretos e seja honesto sobre onde você se destaca — e onde ainda precisa evoluir._
+&emsp; Entendendo a rede e o ecossistema Solana, sabemos que a concorrência não é apenas outras soluções Web3, mas também as alternativas Web2 que as pessoas usam hoje para resolver o mesmo problema. Por isso, é importante mapear tanto os concorrentes diretos, decritos na tabela abaixo, quanto os indiretos, que são tradicionais, como aplicativos de banco, que permitem fazer transações e investimentos diversos.
+
+### Benchmark Comparativo: ZOP vs. Soluções de Entrada (2026)
+
+| Característica | 🟢 **ZOP (Sua Infra)** | 🔵 **Telegram Wallet (Nativo)** | 🟠 **Bipa (App + Pix)** | 🟣 **Corretoras (Binance/Mynt)** |
+| :--- | :--- | :--- | :--- | :--- |
+| **Interface Principal** | **WhatsApp** (Nativo via Chat e Flows) | Telegram (Mini Apps e Bots) | App Mobile Próprio | App Mobile Complexo |
+| **Público-Alvo** | **Leigos com medo de Cripto** (Foco em facilitação) | Usuários de Telegram (Geral/Crypto-natives) | Brasileiros focados em BTC e Pix | Investidores de Varejo e Traders |
+| **Custódia e Segurança** | **Não-Custodial (MPC)** + Biometria (FaceID/Digital) | Híbrida (Custodial ou TON Space) | Custodial (Empresa detém as chaves) | Custodial (Empresa detém as chaves) |
+| **Blockchain** | **Solana** (USDC Nativo e JitoSOL) | TON Network | Bitcoin (On-chain e Lightning) | Múltiplas Redes (Complexo para leigos) |
+| **On-Ramp / Off-Ramp** | **P2P.me** (Pix) + **MoonPay** (Apple/Google Pay) | P2P Interno / Cartão de Crédito | Pix Direto (Foco em Real → BTC) | Pix / TED / Cartão (Fluxo com KYC alto) |
+| **Motor de Rendimento** | **Native Staking (Jito)** - "Invisível" ao usuário | Staking de TON (Exige interação manual) | Sem rendimento (Apenas valorização do ativo) | "Earn" (Lending/Empréstimos com taxas) |
+| **Diferencial Competitivo** | **Abstração Total:** Linguagem natural e "estilo Pix" no app que o brasileiro já usa. | Integração com ecossistema TON e anúncios no app. | Simplicidade extrema para Bitcoin e integração Pix rápida. | Grande variedade de ativos e liquidez global. |
+
+---
+
+### Análise Técnica do Posicionamento ZOP
+
+**1. O Poder da Abstração MPC para o "Inseguro":**
+O seu maior trunfo é que o usuário não precisa saber o que é uma *private key*. No ZOP, a carteira está "partida" entre a infraestrutura e o dispositivo do cliente. Se ele perder o celular, a conta é recuperada via biometria/identidade, e não via uma semente de 12 palavras que gera pânico em quem é leigo.
+
+**2. Linguagem Natural como Interface de Confiança:**
+Enquanto as corretoras usam botões de "Trade", "Limit Order" e "Slippage", o ZOP usa: 
+> *"Quero colocar 50 reais em dólar pra render."* Isso transforma a barreira tecnológica em uma conversa amigável. A Solana roda no fundo como um "backend invisível", garantindo que a transação seja confirmada antes mesmo do usuário fechar a janela do chat.
+
+**3. Fluxo de Dinheiro (On-Ramp) Descentralizado:**
+Ao usar o **P2P.me** para o Pix, você mantém a filosofia da descentralização, mas com a conveniência de um pagamento instantâneo brasileiro. A adição da **MoonPay** (Apple Pay/Google Wallet) atende o público que prefere a conveniência do cartão, cobrindo todas as frentes de entrada de capital.
+
+**4. Staking com Jito como "Caixinha de Rendimento":**
+Ao utilizar o **Native Staking da Jito**, você oferece algo que as corretoras penam para explicar: rendimento real on-chain. Para o seu público, isso aparece como "Seu saldo está crescendo", sem que ele precise entender o que é um validador ou MEV.
+
+**5. A Ilusão Perfeita da Moeda Local (UX Invisível):** O usuário nunca lida com jargões, tokens ou cotações complexas. Pelo WhatsApp, ele vê seu saldo e faz transferências usando comandos simples em Reais (ex: "Enviar R$ 50"). A experiência é idêntica à de um app bancário tradicional, removendo o atrito e o medo da Web3.
+
+**6. Motor Invisível em Dólar Digital (USDC):** Por trás do saldo em Reais, o dinheiro real guardado na carteira MPC é o USDC. O backend do ZOP usa oráculos em tempo real (como Pyth) para fazer a matemática instantânea: converte a intenção de "enviar Reais" na quantia exata de dólares, liquidando a transação via Solana em 400 milissegundos sem expor o cliente à volatilidade.
+
+**7. Rendimento Híbrido (Proteção + Upside em SOL):** O capital principal do cliente fica blindado contra quedas de mercado (guardado em USDC) rendendo juros seguros em DeFi. O ZOP coleta automaticamente apenas esses juros gerados e os converte em Solana (SOL) para a "Caixinha" do usuário. Ele ganha o potencial de alta das criptos sem arriscar o seu depósito inicial.
+
+**Resumo da estratégia:**
+O ZOP não compete por "quem tem mais tokens", mas por **quem remove mais fricção**. Você está pegando a tecnologia mais robusta da Solana (Jito, MPC, USDC) e "escondendo" ela atrás de uma conversa de WhatsApp para quem hoje tem medo de investir.
 
 **Concorrentes diretos:**
 > _Quem já tenta resolver o mesmo problema?_
