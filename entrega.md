@@ -28,25 +28,19 @@
 
 **Qual é o problema central?**
 
-O Brasil é o 5º maior mercado de cripto do mundo, mas a tecnologia ainda é inacessível para a maioria. A jornada de entrada exige seed phrases, jargões técnicos, instalação de carteiras e cadastros complexos em corretoras que, no fim, ainda retêm a custódia dos ativos do usuário. Para quem já vive dentro do WhatsApp, esse atrito é intransponível. Ao mesmo tempo, pequenos comerciantes e MEIs perdem bilhões por ano em taxas de maquininha e liquidação lenta, sem nenhuma alternativa simples à vista.
-
+O Brasil é o 5º maior mercado de cripto do mundo, mas a tecnologia ainda é inacessível para a maioria. A jornada de entrada exige seed phrases, jargões técnicos, instalação de carteiras e cadastros complexos em corretoras que, no fim, ainda retêm a custódia dos ativos do usuário. Para quem já vive dentro do WhatsApp, esse atrito é intransponível. Ao mesmo tempo, quem quer diversificar os próprios investimentos para cripto esbarra em uma curva de aprendizado que não deveria existir — o problema não é falta de interesse, é falta de uma porta de entrada decente.
 
 **Quem sofre com esse problema? (Persona)**
-> _Descreva em 2–3 linhas quem é essa pessoa ou organização. Ex: pequenos criadores de conteúdo na América Latina que não têm acesso a ferramentas de monetização._
 
-São três perfis com dores distintas mas com a mesma raiz: o brasileiro médio que ainda não consegue acessar infraestrutura financeira moderna. O MEI com R\$ 50 mil/mês em vendas que paga R$ 1.250/mês de MDR e espera até D+30 para receber. O trabalhador que manda dinheiro para família no exterior e perde até 12% em taxas de remessa. E o jovem de 25 a 34 anos, que já representa 72% dos usuários de cripto no Brasil e que quer investir em dólar mas não sabe por onde começar sem cair em uma corretora complexa.
-
+O público é amplo mas tem um perfil claro: pessoas entre 20 e 40 anos que já ouviram falar de cripto, têm alguma curiosidade, mas nunca conseguiram dar o primeiro passo porque o processo parecia técnico, arriscado ou burocrático demais. Não são traders nem entusiastas de blockchain — são pessoas comuns que querem guardar uma parte do dinheiro em dólar, fazer uma remessa sem pagar fortuna de taxa ou simplesmente experimentar um investimento diferente. Esse perfil existe no Brasil e em toda a América Latina, onde o WhatsApp já é o principal canal de comunicação do dia a dia.
 
 **Por que esse problema ainda não foi resolvido?**
-> _Existe alguma barreira técnica, regulatória, de mercado ou de comportamento que mantém esse problema em aberto?_
 
 As corretoras centralizadas resolvem o acesso mas criam novo problema: custodiam os ativos e exigem onboarding burocrático. As carteiras descentralizadas preservam a autonomia mas exigem literacia técnica que o público de massa não tem e não quer ter. O canal que esse público já usa diariamente, o WhatsApp, nunca foi aproveitado como interface financeira não-custodial. A barreira não é técnica: as ferramentas já existem. A barreira é de produto.
 
 **Evidência do problema (dado, citação ou exemplo real):**
-> _Se tiver: uma estatística, um relato de usuário, um caso concreto que torna o problema palpável._
 
-O Brasil movimentou **US$ 318,8 bilhões em cripto** entre julho de 2024 e junho de 2025 — crescimento de 109,9% em um ano. Mesmo assim, apenas **24% dos brasileiros possuem algum criptoativo** (Sherlock Communications, 2024), e o engajamento nos apps cai 34% após o primeiro acesso (Adjust, 2024). O mercado cresce, mas a experiência expulsa o usuário antes de ele se engajar. Projeções do Mercado Bitcoin estimam que esse número pode chegar a **120 milhões de brasileiros** até 2030 — desde que a barreira de entrada seja resolvida.
-
+O Brasil movimentou **US$ 318,8 bilhões em cripto** entre julho de 2024 e junho de 2025, crescimento de 109,9% em um ano. Mesmo assim, apenas **24% dos brasileiros possuem algum criptoativo** (Sherlock Communications, 2024), e o engajamento nos apps cai 34% após o primeiro acesso (Adjust, 2024). O mercado cresce, mas a experiência expulsa o usuário antes de ele se engajar. Projeções do Mercado Bitcoin estimam que esse número pode chegar a **120 milhões de brasileiros** até 2030, desde que a barreira de entrada seja resolvida.
 
 ---
 
@@ -100,29 +94,24 @@ O ZOP leva o ecossistema Solana para dentro do WhatsApp, o app que 147 milhões 
 > _Quem são os usuários-alvo? Qual o tamanho da oportunidade? Use a estrutura TAM → SAM → SOM para mostrar que você entende o mercado e está sendo realista._
 
 **Usuário-alvo primário (ICP — Ideal Customer Profile):**
-> _Quem é a primeira pessoa que você quer conquistar? Seja específico._
 
-O usuário principal é o brasileiro entre 20 e 40 anos que já ouviu falar de cripto, talvez até tenha pesquisado, mas travou na hora de entrar porque o processo parecia complicado demais ou arriscado demais. Ele não quer virar trader, quer só ter uma parte do dinheiro rendendo em dólar ou fazer uma transferência sem pagar uma fortuna de taxa. E ele já resolve quase tudo pelo celular, principalmente pelo WhatsApp. O Zop é o caminho mais curto entre a curiosidade dele e a primeira transação real.
+O usuário principal é a pessoa entre 20 e 40 anos que quer diversificar onde guarda e investe o dinheiro, tem curiosidade por cripto, mas não quer ter que estudar blockchain para fazer isso. Ela não precisa entender o que é uma seed phrase, como funciona uma DEX ou o que é gas fee. Ela só precisa de uma interface que já conhece e uma experiência simples o suficiente para não dar medo. O Zop é o primeiro passo dela dentro do ecossistema cripto sem que ela precise saber que está nele.
 
 **TAM — Total Addressable Market:**
-> _O mercado total se todo mundo usasse sua solução. Use dados de mercado ou estimativas fundamentadas._
 
-O mercado de pagamentos no Brasil movimentou R\$ 99,7 trilhões em 2023 (Demarest), com o setor de pagamentos digitais atingindo R\$ 4,1 trilhões só em transações com cartão em 2024 (Stark Bank). Somado ao volume cripto, o Brasil transacionou US\$ 318,8 bilhões em criptoativos entre julho de 2024 e junho de 2025, quase um terço de toda a atividade da América Latina.(BSC News) O TAM é a fatia desse mercado capturável por infraestrutura de pagamento e investimento via stablecoin: estimado em R$ 500 bilhões/ano em volume endereçável.
+O mercado de pagamentos no Brasil movimentou R\$ 99,7 trilhões em 2023 (Demarest), com o setor de pagamentos digitais atingindo R\$ 4,1 trilhões só em transações com cartão em 2024 (Stark Bank). Somado ao volume cripto, o Brasil transacionou US\$ 318,8 bilhões em criptoativos entre julho de 2024 e junho de 2025, quase um terço de toda a atividade da América Latina (BSC News). O TAM considera toda a América Latina como mercado endereçável, dado que o WhatsApp domina a comunicação cotidiana em países como México, Colômbia, Argentina e Chile da mesma forma que no Brasil. O volume endereçável regional por infraestrutura de pagamento e investimento via stablecoin é estimado em mais de R\$ 1 trilhão/ano.
 
 **SAM — Serviceable Addressable Market:**
-> _A fatia do TAM que você pode atingir com seu modelo de negócio e distribuição._
 
-24% dos brasileiros já possuem algum criptoativo em 2024, ante 14% em 2023 (Exame), mas o engajamento ainda é baixo e a experiência continua quebrando o funil. Esse grupo, somado aos curiosos que nunca completaram o onboarding em corretoras tradicionais, forma uma base de 40 a 50 milhões de pessoas no Brasil que já têm intenção mas não têm interface. Todos eles usam WhatsApp todo dia.
+24% dos brasileiros já possuem algum criptoativo em 2024, ante 14% em 2023 (Exame), mas o engajamento ainda é baixo e a experiência continua quebrando o funil. Esse grupo, somado aos curiosos que nunca completaram o onboarding em corretoras tradicionais, forma uma base de 40 a 50 milhões de pessoas só no Brasil que já têm intenção mas não têm interface. Na América Latina como um todo, esse número ultrapassa 150 milhões de pessoas com acesso a smartphone e WhatsApp ativo.
 
 **SOM — Serviceable Obtainable Market:**
-> _O que você realisticamente pode capturar nos próximos 12–18 meses._
 
-Nos primeiros 12 a 18 meses, o foco é nos curiosos que já pesquisaram cripto mas não avançaram e em usuários indicados organicamente dentro do próprio WhatsApp. A meta realista é 50 mil usuários ativos mensais com volume de R\$ 50 milhões em transações, o que a uma margem média de 0,6% representa R\$ 300 mil de receita recorrente mensal.
+Nos primeiros 12 a 18 meses, o foco é no Brasil: curiosos que já pesquisaram cripto mas não avançaram e usuários indicados organicamente dentro do próprio WhatsApp. A meta realista é 50 mil usuários ativos mensais com volume de R\$ 50 milhões em transações, o que a uma margem média de 0,6% representa R\$ 300 mil de receita recorrente mensal. A expansão para México e Colômbia entra como segunda fase, aproveitando a mesma infraestrutura sem necessidade de reconstruir o produto.
 
 **Referência de dados de mercado (fonte):**
-> _Cite ao menos uma fonte: relatório de mercado, dado público, benchmark de concorrente._
 
-Fontes: Chainalysis (2025), Banco Central do Brasil (2024), Mercado Bitcoin Research (2024)
+Fontes: Chainalysis (2025), Banco Central do Brasil (2024), Mercado Bitcoin Research (2024), BSC News (2025)
 
 ---
 
@@ -212,36 +201,33 @@ O ZOP não compete por "quem tem mais tokens", mas por **quem remove mais fricç
 > _Quais seriam os primeiros passos para validar a ideia? Foque nos próximos 3–6 meses. Mostre que você sabe a diferença entre construir e validar._
 
 **Hipótese central a ser validada:**
-> _O que precisa ser verdade para o negócio funcionar? Qual é a aposta mais arriscada?_
 
-O usuário brasileiro que já tem curiosidade sobre cripto consegue completar sua primeira transação em stablecoin sem nenhuma instrução técnica, só usando o WhatsApp do jeito que já usa. Se isso for verdade, a barreira de entrada do cripto não é cultural, é só de interface.
+Uma pessoa sem nenhum conhecimento técnico de cripto consegue guardar dinheiro em dólar ou fazer uma transferência usando só o WhatsApp, sem precisar de instrução. Se isso for verdade, o que impede a adoção em massa de cripto no Brasil não é cultura nem desinteresse, é ausência de uma interface que o público já domina.
 
-
-**Marco 0 - — Validação do Conceito: Ideathon Superteam Brasil**
+**Marco 0 — Validação do Conceito: Ideathon Superteam Brasil**
 
 - [ ] Apresentar a proposta para banca técnica do ecossistema Solana e coletar feedback qualificado
-- [ ] Validar se o modelo não-custodial via MPC é compreendido e aceito como diferencial
-- [ ] Identificar parceiros de time com perfil técnico para avançar para o hackathon
+- [ ] Validar se o modelo não-custodial via MPC é compreendido e aceito como diferencial pelos avaliadores
+- [ ] Identificar parceiros de time com perfil técnico para avançar para o hackathon global
 
 **Marco 1 — Construção do MVP: Hackathon Global Solana (semanas 1 a 6)**
-> _O que você vai fazer para confirmar que o problema existe e que sua solução faz sentido?_
 
 - [ ] Bot funcional no WhatsApp criando carteira Solana automaticamente vinculada ao número via Privy
 - [ ] Consulta de saldo e transferência P2P de USDC entre números cadastrados
 - [ ] Onramp via Pix com conversão para USDC e confirmação biométrica via WhatsApp Flow
+- [ ] Arquitetura de mensageria desacoplada do backend desde o início, permitindo migração para Telegram ou SMS caso necessário
 - [ ] Fluxo completo rodando em devnet Solana antes de subir para mainnet
 
 **Marco 2 — Primeiros Usuários Reais (semanas 6 a 16)**
-> _Qual é a menor versão do produto que permite testar a hipótese central?_
 
 - [ ] Lançar para grupo fechado de 50 a 100 pessoas priorizando quem nunca usou cripto
 - [ ] Medir taxa de conclusão do onboarding sem suporte e taxa de segunda transação em 7 dias
 - [ ] Ativar indicação orgânica dentro do WhatsApp e rastrear CAC real do canal
+- [ ] Testar a percepção do produto com usuários da América Latina fora do Brasil para calibrar expansão regional
 
 **Métricas de sucesso do MVP:**
-> _O que você precisa observar para declarar que o experimento funcionou?_
 
-Taxa de conclusão do onboarding acima de 60% sem ajuda. Pelo menos 40% dos usuários fazendo uma segunda transação espontânea em até 7 dias. Custo por transação abaixo de R$0.80 mesmo em baixo volume. E ao menos um usuário que nunca tocou em cripto completando uma transferência P2P sem nenhum suporte.
+Taxa de conclusão do onboarding acima de 60% sem ajuda. Pelo menos 40% dos usuários fazendo uma segunda transação espontânea em até 7 dias. Custo por transação abaixo de R$ 0,80 mesmo em baixo volume. E ao menos um usuário que nunca tocou em cripto completando uma transferência P2P sem nenhum suporte.
 
 ---
 
