@@ -104,22 +104,27 @@ O ZAPI leva o ecossistema Solana para dentro do WhatsApp, o app que 147 milhões
 **Usuário-alvo primário (ICP — Ideal Customer Profile):**
 > _Quem é a primeira pessoa que você quer conquistar? Seja específico._
 
+O usuário principal é o brasileiro entre 20 e 40 anos que já ouviu falar de cripto, talvez até tenha pesquisado, mas travou na hora de entrar porque o processo parecia complicado demais ou arriscado demais. Ele não quer virar trader, quer só ter uma parte do dinheiro rendendo em dólar ou fazer uma transferência sem pagar uma fortuna de taxa. E ele já resolve quase tudo pelo celular, principalmente pelo WhatsApp. O Zop é o caminho mais curto entre a curiosidade dele e a primeira transação real.
 
 **TAM — Total Addressable Market:**
 > _O mercado total se todo mundo usasse sua solução. Use dados de mercado ou estimativas fundamentadas._
 
+O mercado de pagamentos no Brasil movimentou R\$ 99,7 trilhões em 2023 (Demarest), com o setor de pagamentos digitais atingindo R\$ 4,1 trilhões só em transações com cartão em 2024 (Stark Bank). Somado ao volume cripto, o Brasil transacionou US\$ 318,8 bilhões em criptoativos entre julho de 2024 e junho de 2025, quase um terço de toda a atividade da América Latina.(BSC News) O TAM é a fatia desse mercado capturável por infraestrutura de pagamento e investimento via stablecoin: estimado em R$ 500 bilhões/ano em volume endereçável.
 
 **SAM — Serviceable Addressable Market:**
 > _A fatia do TAM que você pode atingir com seu modelo de negócio e distribuição._
 
+24% dos brasileiros já possuem algum criptoativo em 2024, ante 14% em 2023 (Exame), mas o engajamento ainda é baixo e a experiência continua quebrando o funil. Esse grupo, somado aos curiosos que nunca completaram o onboarding em corretoras tradicionais, forma uma base de 40 a 50 milhões de pessoas no Brasil que já têm intenção mas não têm interface. Todos eles usam WhatsApp todo dia.
 
 **SOM — Serviceable Obtainable Market:**
 > _O que você realisticamente pode capturar nos próximos 12–18 meses._
 
+Nos primeiros 12 a 18 meses, o foco é nos curiosos que já pesquisaram cripto mas não avançaram e em usuários indicados organicamente dentro do próprio WhatsApp. A meta realista é 50 mil usuários ativos mensais com volume de R$ 50 milhões em transações, o que a uma margem média de 0,6% representa R$ 300 mil de receita recorrente mensal.
 
 **Referência de dados de mercado (fonte):**
 > _Cite ao menos uma fonte: relatório de mercado, dado público, benchmark de concorrente._
 
+Fontes: Chainalysis (2025), Banco Central do Brasil (2024), Mercado Bitcoin Research (2024)
 
 ---
 
