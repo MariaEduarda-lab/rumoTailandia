@@ -119,7 +119,7 @@ O mercado de pagamentos no Brasil movimentou R\$ 99,7 trilhões em 2023 (Demares
 **SOM — Serviceable Obtainable Market:**
 > _O que você realisticamente pode capturar nos próximos 12–18 meses._
 
-Nos primeiros 12 a 18 meses, o foco é nos curiosos que já pesquisaram cripto mas não avançaram e em usuários indicados organicamente dentro do próprio WhatsApp. A meta realista é 50 mil usuários ativos mensais com volume de R$ 50 milhões em transações, o que a uma margem média de 0,6% representa R$ 300 mil de receita recorrente mensal.
+Nos primeiros 12 a 18 meses, o foco é nos curiosos que já pesquisaram cripto mas não avançaram e em usuários indicados organicamente dentro do próprio WhatsApp. A meta realista é 50 mil usuários ativos mensais com volume de R\$ 50 milhões em transações, o que a uma margem média de 0,6% representa R\$ 300 mil de receita recorrente mensal.
 
 **Referência de dados de mercado (fonte):**
 > _Cite ao menos uma fonte: relatório de mercado, dado público, benchmark de concorrente._
