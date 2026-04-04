@@ -45,7 +45,7 @@ As corretoras centralizadas resolvem o acesso mas criam novo problema: custodiam
 **Evidência do problema (dado, citação ou exemplo real):**
 > _Se tiver: uma estatística, um relato de usuário, um caso concreto que torna o problema palpável._
 
-O Brasil movimentou US$ 318,8 bilhões em cripto entre julho de 2024 e junho de 2025 — crescimento de 109,9% em um ano. Mesmo assim, apenas 24% dos brasileiros possuem algum criptoativo (Sherlock Communications, 2024), e o engajamento nos apps cai 34% após o primeiro acesso (Adjust, 2024). O mercado cresce, mas a experiência expulsa o usuário antes de ele se engajar. Projeções do Mercado Bitcoin estimam que esse número pode chegar a 120 milhões de brasileiros até 2030 — desde que a barreira de entrada seja resolvida.
+O Brasil movimentou **US$ 318,8 bilhões em cripto** entre julho de 2024 e junho de 2025 — crescimento de 109,9% em um ano. Mesmo assim, apenas **24% dos brasileiros possuem algum criptoativo** (Sherlock Communications, 2024), e o engajamento nos apps cai 34% após o primeiro acesso (Adjust, 2024). O mercado cresce, mas a experiência expulsa o usuário antes de ele se engajar. Projeções do Mercado Bitcoin estimam que esse número pode chegar a **120 milhões de brasileiros** até 2030 — desde que a barreira de entrada seja resolvida.
 
 
 ---
@@ -56,19 +56,20 @@ O Brasil movimentou US$ 318,8 bilhões em cripto entre julho de 2024 e junho de 
 
 **O que o produto faz (em 2–3 frases):**
 
+O ZAPI leva o ecossistema Solana para dentro do WhatsApp, o app que 147 milhões de brasileiros já usam todo dia. Por meio de um chat com inteligência artificial, o usuário cria carteira, faz transferências em stablecoin e acessa perfis de investimento no ecossistema Solana usando linguagem natural, sem instalar nada, sem seed phrase visível e sem pagar taxas de rede.
 
 **Como o usuário interage com a solução? (fluxo simplificado)**
 > _Ex: "O usuário conecta sua carteira → seleciona X → recebe Y em Z segundos."_
 
-1.
-2.
-3.
+1. Usuário manda mensagem para o bot: "quero guardar 200 reais em dólar"
+2. O bot confirma os detalhes e abre uma tela de confirmação dentro do próprio WhatsApp
+3. Usuário autentica com Face ID ou digital e a transação é executada na Solana em menos de 1 segundo
 
 **Qual é a transformação que o usuário experimenta?**
 > _Antes: [situação atual]. Depois: [situação com sua solução]._
 
-- **Antes:**
-- **Depois:**
+- **Antes:** para entrar em cripto, a pessoa precisava criar conta em corretora, passar por verificação de identidade, entender o que é uma seed phrase, descobrir como funciona uma carteira e ainda torcer para não errar nada no processo. A maioria desistia antes de fazer a primeira transação.
+- **Depois:** o usuário manda uma mensagem no WhatsApp como manda para qualquer contato. A carteira já existe, as taxas já estão cobertas, e cada transação importante pede só uma digital para confirmar. Cripto virou parte do cotidiano sem que o usuário precise saber que está usando cripto.
 
 ---
 
