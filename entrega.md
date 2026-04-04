@@ -200,28 +200,6 @@ Ao utilizar o **Native Staking da Jito**, você oferece algo que as corretoras p
 **Resumo da estratégia:**
 O ZOP não compete por "quem tem mais tokens", mas por **quem remove mais fricção**. Você está pegando a tecnologia mais robusta da Solana (Jito, MPC, USDC) e "escondendo" ela atrás de uma conversa de WhatsApp para quem hoje tem medo de investir.
 
-**Concorrentes diretos:**
-> _Quem já tenta resolver o mesmo problema?_
-
-
-**Alternativas que o usuário usa hoje (concorrentes indiretos):**
-> _Mesmo que não sejam tecnologia — planilha, processo manual, outro app._
-
-
-**Sua vantagem competitiva:**
-
-| Dimensão | Concorrente A | Concorrente B | Sua Solução |
-|---|---|---|---|
-| Velocidade | | | |
-| Custo | | | |
-| UX / Facilidade | | | |
-| Integração Solana | | | |
-| [Outro diferencial] | | | |
-
-**Por que é difícil de copiar?**
-> _Network effect, dados proprietários, tecnologia, comunidade, regulação, timing?_
-
-
 ---
 
 ### Slide 8 — Roadmap Inicial
