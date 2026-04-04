@@ -28,17 +28,24 @@
 
 **Qual é o problema central?**
 
+O Brasil é o 5º maior mercado de cripto do mundo, mas a tecnologia ainda é inacessível para a maioria. A jornada de entrada exige seed phrases, jargões técnicos, instalação de carteiras e cadastros complexos em corretoras que, no fim, ainda retêm a custódia dos ativos do usuário. Para quem já vive dentro do WhatsApp, esse atrito é intransponível. Ao mesmo tempo, pequenos comerciantes e MEIs perdem bilhões por ano em taxas de maquininha e liquidação lenta, sem nenhuma alternativa simples à vista.
+
 
 **Quem sofre com esse problema? (Persona)**
 > _Descreva em 2–3 linhas quem é essa pessoa ou organização. Ex: pequenos criadores de conteúdo na América Latina que não têm acesso a ferramentas de monetização._
+
+São três perfis com dores distintas mas com a mesma raiz: o brasileiro médio que ainda não consegue acessar infraestrutura financeira moderna. O MEI com R\$ 50 mil/mês em vendas que paga R$ 1.250/mês de MDR e espera até D+30 para receber. O trabalhador que manda dinheiro para família no exterior e perde até 12% em taxas de remessa. E o jovem de 25 a 34 anos, que já representa 72% dos usuários de cripto no Brasil e que quer investir em dólar mas não sabe por onde começar sem cair em uma corretora complexa.
 
 
 **Por que esse problema ainda não foi resolvido?**
 > _Existe alguma barreira técnica, regulatória, de mercado ou de comportamento que mantém esse problema em aberto?_
 
+As corretoras centralizadas resolvem o acesso mas criam novo problema: custodiam os ativos e exigem onboarding burocrático. As carteiras descentralizadas preservam a autonomia mas exigem literacia técnica que o público de massa não tem e não quer ter. O canal que esse público já usa diariamente, o WhatsApp, nunca foi aproveitado como interface financeira não-custodial. A barreira não é técnica: as ferramentas já existem. A barreira é de produto.
 
 **Evidência do problema (dado, citação ou exemplo real):**
 > _Se tiver: uma estatística, um relato de usuário, um caso concreto que torna o problema palpável._
+
+O Brasil movimentou US$ 318,8 bilhões em cripto entre julho de 2024 e junho de 2025 — crescimento de 109,9% em um ano. Mesmo assim, apenas 24% dos brasileiros possuem algum criptoativo (Sherlock Communications, 2024), e o engajamento nos apps cai 34% após o primeiro acesso (Adjust, 2024). O mercado cresce, mas a experiência expulsa o usuário antes de ele se engajar. Projeções do Mercado Bitcoin estimam que esse número pode chegar a 120 milhões de brasileiros até 2030 — desde que a barreira de entrada seja resolvida.
 
 
 ---
