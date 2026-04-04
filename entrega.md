@@ -132,27 +132,34 @@ Fontes: Chainalysis (2025), Banco Central do Brasil (2024), Mercado Bitcoin Rese
 
 **Fonte primária de receita:**
 
+Spread cambial capturado nas conversões entre real e USDC. Toda vez que o usuário deposita via Pix ou saca para sua conta bancária, a plataforma aplica uma margem sobre a cotação do mercado. Para o usuário a operação aparece como gratuita. Na prática ele paga uma taxa que nunca vê, embutida na cotação, ainda assim muito menor do que qualquer corretora ou banco tradicional cobram pelo mesmo serviço.
+
 
 **Modelo de precificação:**
 > _Ex: taxa por transação (X%), assinatura mensal, freemium, token utility, etc._
 
+Taxa por conversão, invisível ao usuário. 0,5% a 0,8% no onramp (Pix para USDC) e 0,3% a 0,5% no offramp (USDC para Pix). Em fases futuras, yield sharing retendo 30% do rendimento gerado pelo saldo alocado em protocolos DeFi como o Jito, repassando 70% ao usuário. Transferências P2P entre usuários Zop são gratuitas e custeadas pelas fees sub-centavo da Solana.
 
 **Quem paga? (payer ≠ usuário?)**
 > _Em alguns modelos o usuário e o pagador são pessoas diferentes._
 
+O usuário paga indiretamente via spread cambial, sem perceber que existe uma taxa. Ele compara a cotação com o dólar do Google, vê que a diferença é pequena, e conclui que o serviço é gratuito. Em fases futuras, empresas que integrarem a infraestrutura Zop via API pagam uma mensalidade pelo volume de transações dos seus próprios clientes, num modelo parecido com o da Stripe.
 
 **Unit Economics (estimativas iniciais):**
 
 | Métrica | Estimativa |
 |---|---|
-| CAC (Custo de Aquisição de Cliente) | |
-| LTV (Lifetime Value) | |
-| Margem bruta estimada | |
-| Break-even estimado | |
+| CAC (Custo de Aquisição de Cliente) | R\$20 a R\$60 — crescimento orgânico via indicação, mas com custo real de gestão de comunidade, parcerias e tempo da equipe nos primeiros usuários  |
+| LTV (Lifetime Value) | R\$120 a R\$250 — usuário movimentando R\$500/mês com spread médio de 0,6% por 18–24 meses; LTV = R\$500 × 0,6% × 18–24 = R\$54–R\$72/mês de receita × 12–18 meses de retenção |
+| Custo por transação | R$0,30 a R$0,60 — inclui LLM (Claude Haiku), WhatsApp Business API, Privy (MPC) e infraestrutura AWS; custo escala com volume  |
+| Margem bruta estimada | 40% a 55% — menor que o ideal, mas cresce conforme volume escala e custo fixo dilui; margem % sobe quando CAC dilui e custo unitário de IA/infra cai com negotiating tiers |
+| Break-even estimado | ~25 mil usuários ativos com volume médio de R\$600/mês cada, gerando R$\15M/mês de volume × 0,6% spread = R\$90k/mês de receita, cobrindo custos fixos de IA, infra e equipe inicial |
+| LTV/CAC ratio| 2,5x a 4x — saudável para fintech inicial; meta é chegar a 4x–6x com automação e escala |
 
 **Papel do token (se houver):**
 > _O token é necessário para o modelo funcionar, ou é opcional? Como ele captura valor?_
 
+O Zop **não depende de token** para funcionar e **não planeja lançar um na fase inicial**. Receita vem de spread cambial e yield sharing, não de emissão de ativos. Se houver token no futuro, entraria como mecanismo de governança para usuários com alto volume (voto em parâmetros de spread, programas de fidelidade), não como fonte primária de receita. Isso diferencia o modelo de esquemas Ponzi/pumped tokens e mostra maturidade para banca técnica.
 
 ---
 
@@ -207,31 +214,34 @@ O ZOP não compete por "quem tem mais tokens", mas por **quem remove mais fricç
 **Hipótese central a ser validada:**
 > _O que precisa ser verdade para o negócio funcionar? Qual é a aposta mais arriscada?_
 
+O usuário brasileiro que já tem curiosidade sobre cripto consegue completar sua primeira transação em stablecoin sem nenhuma instrução técnica, só usando o WhatsApp do jeito que já usa. Se isso for verdade, a barreira de entrada do cripto não é cultural, é só de interface.
 
-**Marco 1 — Descoberta / Problem-Solution Fit (semanas 1–4)**
+
+**Marco 0 - — Validação do Conceito: Ideathon Superteam Brasil**
+
+- [ ] Apresentar a proposta para banca técnica do ecossistema Solana e coletar feedback qualificado
+- [ ] Validar se o modelo não-custodial via MPC é compreendido e aceito como diferencial
+- [ ] Identificar parceiros de time com perfil técnico para avançar para o hackathon
+
+**Marco 1 — Construção do MVP: Hackathon Global Solana (semanas 1 a 6)**
 > _O que você vai fazer para confirmar que o problema existe e que sua solução faz sentido?_
 
-- [ ]
-- [ ]
-- [ ]
+- [ ] Bot funcional no WhatsApp criando carteira Solana automaticamente vinculada ao número via Privy
+- [ ] Consulta de saldo e transferência P2P de USDC entre números cadastrados
+- [ ] Onramp via Pix com conversão para USDC e confirmação biométrica via WhatsApp Flow
+- [ ] Fluxo completo rodando em devnet Solana antes de subir para mainnet
 
-**Marco 2 — MVP (semanas 4–8)**
+**Marco 2 — Primeiros Usuários Reais (semanas 6 a 16)**
 > _Qual é a menor versão do produto que permite testar a hipótese central?_
 
-- [ ]
-- [ ]
-- [ ]
-
-**Marco 3 — Primeiros Usuários Reais (semanas 8–16)**
-> _Como você vai atrair os primeiros 10–100 usuários? Quais métricas de sucesso?_
-
-- [ ]
-- [ ]
-- [ ]
+- [ ] Lançar para grupo fechado de 50 a 100 pessoas priorizando quem nunca usou cripto
+- [ ] Medir taxa de conclusão do onboarding sem suporte e taxa de segunda transação em 7 dias
+- [ ] Ativar indicação orgânica dentro do WhatsApp e rastrear CAC real do canal
 
 **Métricas de sucesso do MVP:**
 > _O que você precisa observar para declarar que o experimento funcionou?_
 
+Taxa de conclusão do onboarding acima de 60% sem ajuda. Pelo menos 40% dos usuários fazendo uma segunda transação espontânea em até 7 dias. Custo por transação abaixo de R$0.80 mesmo em baixo volume. E ao menos um usuário que nunca tocou em cripto completando uma transferência P2P sem nenhum suporte.
 
 ---
 
