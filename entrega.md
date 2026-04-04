@@ -73,27 +73,25 @@ O ZOP leva o ecossistema Solana para dentro do WhatsApp, o app que 147 milhões 
 
 ---
 
-### Slide 4 — Fit com Solana
-
-> _Por que Solana? Quais características da rede são essenciais para que sua solução funcione ou se diferencie? Evite respostas genéricas como "rápido e barato" — conecte as características técnicas ao seu caso de uso específico._
-
-**Por que Solana e não outra blockchain (ou Web2)?**
-
+### Slide 4 — Fit com Solana (Atualizado)
 
 **Quais características da Solana são críticas para o seu projeto?**
 
 | Característica Solana | Como ela habilita sua solução |
 |---|---|
-| Alta throughput (65k+ TPS) | |
-| Baixo custo por transação (~$0.00025) | |
-| Tempo de finalidade (~400ms) | |
-| Programa on-chain (SVM) | |
-| Composabilidade com protocolos existentes (ex: Jupiter, Metaplex, Helius) | |
-| Outro: | |
+| Alta throughput (65k+ TPS) | Suporta a escala massiva do WhatsApp no Brasil sem gargalos em horários comerciais. |
+| Baixo custo (~$0.00025) | Permite ao ZOP subsidiar transações, oferecendo uma experiência "Taxa Zero" ao usuário. |
+| Tempo de finalidade (~400ms) | Garante que o pagamento seja confirmado no tempo de leitura de uma mensagem no chat. |
+| Composabilidade | Integração nativa com Kamino (Rendimento) e Jupiter (Conversão de juros para SOL). |
+| Oráculos Rápidos (Pyth) | Converte o saldo de USDC para a moeda nativa (Real) em tempo real com precisão bancária. |
 
 **Quais programas/protocolos Solana você planeja usar ou integrar?**
-> _Ex: Metaplex, Anchor, Token-2022, cNFTs, Blinks, etc._
-
+* **USDC Nativo (SPL Token):** Estabilidade e segurança de lastro para o capital principal do leigo.
+* **Kamino Finance:** Protocolo central de liquidez onde o USDC do usuário gera juros automáticos (Yield).
+* **Jupiter API:** Motor que converte os juros de USDC gerados no Kamino para SOL de forma invisível.
+* **Jito (Native Staking):** Destino final do rendimento, onde o SOL cresce via staking e valorização.
+* **P2P.me & MoonPay:** Portas de entrada (On-Ramp). Pix para o dia a dia e Apple Pay/Cartão para conveniência global.
+* **Turnkey / Privy (MPC):** Infraestrutura para garantir que a custódia seja partilhada e segura via biometria.
 
 ---
 
